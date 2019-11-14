@@ -35,6 +35,23 @@
   stroke: #e3e3e3;
 }
 
+.chart::before {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  z-index: -1;
+  display: block;
+  width: 400px;
+  height: 300px;
+  content: " ";
+  /* background-image: url("maxresdefault.jpg"); */
+  /* background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.albertadoctors.org%2Fimages%2Fama-master%2Ffeature%2FStock%2520photos%2FNews.jpg&imgrefurl=https%3A%2F%2Fwww.albertadoctors.org%2Fservices%2Fmedia-publications%2Fnews-for-docs&docid=o2l5rvauQARtbM&tbnid=ruSFa99PozdW9M%3A&vet=10ahUKEwidtu2j1enlAhUN26wKHXOqCzcQMwigASgZMBk..i&w=350&h=225&safe=strict&bih=762&biw=848&q=news&ved=0ahUKEwidtu2j1enlAhUN26wKHXOqCzcQMwigASgZMBk&iact=mrc&uact=8)"
+  background-repeat: no-repeat; 
+  background-position: 50% 0;
+  background-size: cover;
+  opacity: 0.3;
+}
+
 .chart {
   display: block;
   margin: 0;

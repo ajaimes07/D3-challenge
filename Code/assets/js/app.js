@@ -108,12 +108,10 @@ function updateToolTip(chosenXAxis, circlesGroup) {
   return circlesGroup;
 }
 
-// Retrieve Data
+// Get Data
 d3.csv("assets/data/data.csv").then(function (healthdata, err) {
   if (err) throw err;
-
-  //For Each Data
-  healthdata.forEach(function (data) {
+healthdata.forEach(function (data) {
     // Convert Data Properties To Numbers
     data.abbr = data.abbr
     data.income = +data.income
